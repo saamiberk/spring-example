@@ -49,4 +49,6 @@ public class User {
     public void setFeatures(HashMap features) {
         this.features = features;
     }
+
+    //test
 }
