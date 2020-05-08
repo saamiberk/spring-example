@@ -50,5 +50,4 @@ public class User {
         this.features = features;
     }
 
-    //test
 }
