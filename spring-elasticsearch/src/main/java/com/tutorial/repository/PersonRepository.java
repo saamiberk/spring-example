@@ -9,6 +9,6 @@ import java.util.List;
 
 @Repository
 public interface PersonRepository extends ElasticsearchRepository<Person, String> {
-
+    //todo regex vs
     List<Person> findByNameOrSurName(String name, String surName);
 }

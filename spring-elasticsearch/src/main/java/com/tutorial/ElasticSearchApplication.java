@@ -31,6 +31,7 @@ public class ElasticSearchApplication implements CommandLineRunner {
             List<Person> persons = objectMapper.readValue(new File(jsonPath), new TypeReference<List<Person>>(){});
             for (Person person:persons)
                 System.out.println(person);
+            //todo saves method
         } catch (IOException e) {
             e.printStackTrace();
         }
